@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+body{
+    margin:0;
+    display:flex;
+    font-family:Arial;
+}
+
+.sidebar{
+    width:220px;
+    height:100vh;
+    background:black;
+    color:white;
+    padding:20px;
+}
+
+.main{
+    flex:1;
+    padding:20px;
+}
+
+.cards{
+    display:flex;
+    gap:20px;
+}
+
+.card{
+    background:lightgray;
+    padding:30px;
+    width:200px;
+}
+</style>
+</head>
+
+<body>
+
+<div class="sidebar">
+    <h2>Dashboard</h2>
+    <p>Home</p>
+    <p>Users</p>
+    <p>Settings</p>
+</div>
+
+<div class="main">
+    <h1>Admin Panel</h1>
+
+    <div class="cards">
+        <div class="card">Users</div>
+        <div class="card">Orders</div>
+        <div class="card">Revenue</div>
+    </div>
+</div>
+
+</body>
+</html>
